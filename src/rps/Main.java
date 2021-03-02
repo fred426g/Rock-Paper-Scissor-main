@@ -10,7 +10,7 @@ import rps.gui.JavaFXApp;
  * @author smsj
  */
 public class Main {
-
+test test test
 
     /**
      * Main start
