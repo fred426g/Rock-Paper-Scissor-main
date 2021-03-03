@@ -15,14 +15,14 @@ public interface IPlayer {
      * Returns the name of the player
      * @return
      */
-    public String getPlayerName();
+    String getPlayerName();
 
 
     /**
      * Returns the type of the player (AI or Human)
      * @return
      */
-    public PlayerType getPlayerType();
+    PlayerType getPlayerType();
 
 
     /**
@@ -31,5 +31,5 @@ public interface IPlayer {
      * @return
      * @param state
      */
-    public Move doMove(IGameState state);
+    Move doMove(IGameState state);
 }
